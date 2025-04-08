@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Martin Höss - Software Developer</title>
+  <style>
+    body {
+      margin: 0;
+      background: #e0d4c3;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      padding-top: 40px;
+      font-family: sans-serif;
+    }
+
+    .figure-wrapper {
+      position: relative;
+      width: 90vw;
+      max-width: 600px;
+    }
+
+    .figure-wrapper img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .click-area {
+      position: absolute;
+      top: 88%; /* Y-Position relativ zum Bild */
+      width: 10%;
+      height: 8%;
+    }
+
+    .github {
+      left: 33%; /* X-Position fÃ¼r GitHub */
+    }
+
+    .xing {
+      left: 44%; /* X-Position fÃ¼r Xing */
+    }
+
+    .linkedin {
+      left: 57%; /* X-Position fÃ¼r LinkedIn */
+    }
+
+    .click-area:hover {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="figure-wrapper">
+    <img src="martin.png" alt="Martin Höss" />
+    <a href="https://github.com/martinhoess" target="_blank" class="click-area github" title="GitHub"></a>
+    <a href="https://www.xing.com/profile/Martin_Hoess5" target="_blank" class="click-area xing" title="Xing"></a>
+    <a href="https://www.linkedin.com/in/hÃ¶ss-martin" target="_blank" class="click-area linkedin" title="LinkedIn"></a>
+  </div>
+</body>
+</html>
